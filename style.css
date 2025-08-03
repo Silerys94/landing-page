@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    height: 100;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* ALL HEADER STYLES */
+header {
+    padding: 0 150px;
+    background-color: #1F2937;
+    flex:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+nav {
+    font-size: 18px;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration-line: none;
+}
+
+/* ALL HERO SECTION STYLES */
+.herosection {
+    padding: 150px;
+    background-color: #1F2937;
+    display: flex;
+}
+
+.heroleft {
+    width: 600px ;
+    height: 200px;
+    padding: 0 50px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.herosection h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0;
+    line-height: 1;
+    text-align: left;
+}
+
+.herosection p {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.herosection button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.imgplaceholder {
+    height: 200px;
+    width: 550px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ALL INFO SECTION STYLES */
+
+.infosection {
+    padding: 30px 200px 200px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align:  center;
+    padding: 30px;
+}
+
+.infoboxsection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infobox {
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+    height: 200px;
+    width: 200px;
+}
+
+.infosection p {
+    text-align: center;
+    width: 200px;
+}
+
+/* ALL QUOTE SECTION STYLES */
+
+.quotesection {
+    padding: 200px;
+    background-color: #E5E7EB;
+}
+
+.quotesection p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quotesection h3 {
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: right;
+}
+
+/* ALL CALLTOACTION SECTION STYLES */
+
+.calltoactionsection {
+    padding: 150px 100px;
+}
+
+.bluebg {
+        background-color: #3882F6;
+        border-radius: 10px;
+        padding: 50px 100px;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.actionleft {
+    font-size: 24px;
+}
+
+.calltoactionsection button {
+    background-color: #3882F6;
+    padding: 5px 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+
+/* ALL FOOTER SECTION STYLES */
+footer {
+    background-color: #1F2937;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px;
+    flex: auto;
+
+}
+
+
+
+/*
+colors and font styles
+font used
+Roboto
+
+dark background color (hero and footer)
+#1F2937
+
+Hero Main text ("this website is awesome")
+48px #F9FAF8 weight: 900
+
+Hero Secondary text, Header Link Text
+    18px #E5E7EB
+
+Header Logo Text
+24px #F9FAF8
+
+Button color, call to action background color
+#3882F6
+
+information header text
+36px #1F2937 weight: 900
+
+Quote section background color
+#E5E7EB
+
+Quote text
+36px light italic #1F2937
+
+/*
